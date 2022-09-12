@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#desconto{
+    background-color: #1cd1b0;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+}
+#loja{
+    display: flex;
+    align-items: center;
+    background-color: #00689f;
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    font-family: inter,sans-serif;
+    font-size: 72px ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nome,#email,#senha,#pais{
+    width: 620px;
+    height: 60px;
+    border: 1.53px solid;
+}
+#botoes {
+    display: flex;
+    justify-content: center;
+    
+} 
+#limpar{
+    width: 300px;
+    height: 53.79px;
+    background-color: #1cd1b0;
+    border-radius: 23.011px;
+    font-family: Karla, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0px;
+}
+#registrar{
+    width: 300px;
+    height: 53.79px;
+    background-color: #888888;
+    border-radius: 23.011px;
+    font-family: Karla, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0px;
+    margin-left: 15px;
+}
+
+#entrar{
+    font-family: karla,sans-serif;
+    text-align: center;
+}
+footer{
+    display: flex;
+    background: #00669F;
+    height: 61px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #FFF9F9;
+    display: flex;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+button{
+    width: 614.25px;
+    height: 53.79px;
+    background-color: #1cd1b0;
+    border-radius: 23.011px;
+    font-family: Karla, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0px;
+}
+
+
+
+
+
+*/

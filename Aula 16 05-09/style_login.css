@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#desconto{
+    background-color: #1cd1b0;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+}
+#loja{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #00689f;
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+img{
+width: 99px;
+height: 74px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: inter, san sans-serif;
+    font-size: 72px;
+    text-align: center;
+}
+#usuario, #senha{
+    width: 620px;
+    height: 60px;
+    border: 1.53px solid;
+}
+
+button{
+    width: 614.25px;
+    height: 53.79px;
+    background-color: #1cd1b0;
+    border-radius: 23.011px;
+    font-family: Karla, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0px;
+}
+
+#registrar{
+    font-family: karla,sans-serif;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    background: #00669F;
+    height: 61px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #FFF9F9;
+    display: flex;
+}
