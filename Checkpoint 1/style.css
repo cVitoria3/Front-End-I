@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navi {
+    padding-top: 10px;
+    background-color: rgb(226, 53, 53);
+    display: flex;
+    align-items: center;
+
+}
+nav {
+
+    display: flex;
+
+}
+nav a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    color: antiquewhite;
+    margin: 3%;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    margin: 3%;
+}
+
+#ban {
+    width: 100%;
+
+}
+
+#banner {
+    width: 100%;
+    height: 50%;
+}
+
+#curiosidades {
+
+    display: flex;
+    align-items: center;
+}
+
+#videos iframe {
+    margin: 2%;
+    width: 50%;
+    height: 500px;
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_curiosidade {
+    height: 190px;
+    width: 190px;
+    border-radius: 5px;
+}
+
+.curiosidade {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(252, 205, 193);
+    border-radius: 25px;
+    height: auto;
+    width: 30%;
+    justify-content: center;
+    margin: 30px;
+    font-family: inter, sans-serif;
+    font-size: larger;
+}
+
+.img_rdp {
+    width: 80%;
+    height: 80%;
+}
+footer {
+    display: flex;
+    background-color: rgb(226, 53, 53);
+    height: 120px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media screen and (max-width: 1220px) {
+    #vol{
+     display: block;
+     width: 50% !important;
+    }
+    main{
+     height: 1250px !important ;
+     width: 100%;
+    }
+ 
+   }
+ 
+   @media screen and (max-width: 480px) {
+ #navi nav{
+    display: flex;
+    flex-direction: column;
+ }
+ #banner{
+    display: none;
+ }
+     #curiosidades {
+        display: flex;
+        flex-direction: column;
+     }    
+.curiosidade{
+    width: 100%;
+}    
+#videos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+
+   
+}
+footer{
+position: absolute;
+
+}
+
+}
